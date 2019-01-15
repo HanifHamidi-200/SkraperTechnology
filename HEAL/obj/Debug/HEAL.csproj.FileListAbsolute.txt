@@ -1,0 +1,12 @@
+C:\Users\hanif\source\repos\HEAL\bin\Debug\HEAL.exe.config
+C:\Users\hanif\source\repos\HEAL\bin\Debug\HEAL.exe
+C:\Users\hanif\source\repos\HEAL\bin\Debug\HEAL.pdb
+C:\Users\hanif\source\repos\HEAL\obj\Debug\HEAL.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\HEAL\obj\Debug\HEAL.Form1.resources
+C:\Users\hanif\source\repos\HEAL\obj\Debug\HEAL.fSub1.resources
+C:\Users\hanif\source\repos\HEAL\obj\Debug\HEAL.fSub2.resources
+C:\Users\hanif\source\repos\HEAL\obj\Debug\HEAL.Properties.Resources.resources
+C:\Users\hanif\source\repos\HEAL\obj\Debug\HEAL.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\HEAL\obj\Debug\HEAL.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\HEAL\obj\Debug\HEAL.exe
+C:\Users\hanif\source\repos\HEAL\obj\Debug\HEAL.pdb

@@ -1,0 +1,11 @@
+C:\Users\hanif\source\repos\CORRID\bin\Debug\CORRID.exe.config
+C:\Users\hanif\source\repos\CORRID\bin\Debug\CORRID.exe
+C:\Users\hanif\source\repos\CORRID\bin\Debug\CORRID.pdb
+C:\Users\hanif\source\repos\CORRID\obj\Debug\CORRID.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\CORRID\obj\Debug\CORRID.Form1.resources
+C:\Users\hanif\source\repos\CORRID\obj\Debug\CORRID.Properties.Resources.resources
+C:\Users\hanif\source\repos\CORRID\obj\Debug\CORRID.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\CORRID\obj\Debug\CORRID.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\CORRID\obj\Debug\CORRID.exe
+C:\Users\hanif\source\repos\CORRID\obj\Debug\CORRID.pdb
+C:\Users\hanif\source\repos\CORRID\obj\Debug\CORRID.fInfoys.resources
