@@ -162,16 +162,7 @@ namespace ARBC800
             fReset();
         }
 
-        private void lst1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lst2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
+    
         private void lst2_Click(object sender, EventArgs e)
         {
             mnItem2 = lst2.SelectedIndex + 1;
@@ -192,5 +183,25 @@ namespace ARBC800
             mnItem1 = lst1.SelectedIndex + 1;
             fShow1(mnItem1);
         }
-    }
+        private void btnOpen1_Click(object sender, EventArgs e)
+        {
+            fSub1 _dlg = new fSub1();
+            _dlg.ShowDialog();
+        }
+
+        private void btnShow_Click(object sender, EventArgs e)
+        {
+            fShow _dlg = new fShow();
+            _dlg.Show();
+
+        }
+
+        private void btnOpen2_Click(object sender, EventArgs e)
+        {
+            fSub2 _dlg = new fSub2();
+            _dlg.ShowDialog();
+
+        }
+
+        }
 }

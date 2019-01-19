@@ -34,6 +34,9 @@
             this.txt1 = new System.Windows.Forms.TextBox();
             this.txt2 = new System.Windows.Forms.TextBox();
             this.btnOK = new System.Windows.Forms.Button();
+            this.btnOpen1 = new System.Windows.Forms.Button();
+            this.btnOpen2 = new System.Windows.Forms.Button();
+            this.btnShow = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lst1
@@ -44,7 +47,6 @@
             this.lst1.Size = new System.Drawing.Size(141, 316);
             this.lst1.TabIndex = 0;
             this.lst1.Click += new System.EventHandler(this.lst1_Click);
-            this.lst1.SelectedIndexChanged += new System.EventHandler(this.lst1_SelectedIndexChanged);
             // 
             // lst2
             // 
@@ -54,7 +56,6 @@
             this.lst2.Size = new System.Drawing.Size(141, 316);
             this.lst2.TabIndex = 1;
             this.lst2.Click += new System.EventHandler(this.lst2_Click);
-            this.lst2.SelectedIndexChanged += new System.EventHandler(this.lst2_SelectedIndexChanged);
             // 
             // btnQNext
             // 
@@ -94,11 +95,47 @@
             this.btnOK.UseVisualStyleBackColor = false;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
+            // btnOpen1
+            // 
+            this.btnOpen1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnOpen1.Location = new System.Drawing.Point(648, 132);
+            this.btnOpen1.Name = "btnOpen1";
+            this.btnOpen1.Size = new System.Drawing.Size(105, 95);
+            this.btnOpen1.TabIndex = 6;
+            this.btnOpen1.Text = "JAPAN250";
+            this.btnOpen1.UseVisualStyleBackColor = false;
+            this.btnOpen1.Click += new System.EventHandler(this.btnOpen1_Click);
+            // 
+            // btnOpen2
+            // 
+            this.btnOpen2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnOpen2.Location = new System.Drawing.Point(648, 233);
+            this.btnOpen2.Name = "btnOpen2";
+            this.btnOpen2.Size = new System.Drawing.Size(105, 95);
+            this.btnOpen2.TabIndex = 7;
+            this.btnOpen2.Text = "KOREAN500";
+            this.btnOpen2.UseVisualStyleBackColor = false;
+            this.btnOpen2.Click += new System.EventHandler(this.btnOpen2_Click);
+            // 
+            // btnShow
+            // 
+            this.btnShow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnShow.Location = new System.Drawing.Point(759, 31);
+            this.btnShow.Name = "btnShow";
+            this.btnShow.Size = new System.Drawing.Size(105, 95);
+            this.btnShow.TabIndex = 8;
+            this.btnShow.Text = "SHOW";
+            this.btnShow.UseVisualStyleBackColor = false;
+            this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(911, 450);
+            this.Controls.Add(this.btnShow);
+            this.Controls.Add(this.btnOpen2);
+            this.Controls.Add(this.btnOpen1);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.txt2);
             this.Controls.Add(this.txt1);
@@ -121,6 +158,9 @@
         private System.Windows.Forms.TextBox txt1;
         private System.Windows.Forms.TextBox txt2;
         private System.Windows.Forms.Button btnOK;
+        private System.Windows.Forms.Button btnOpen1;
+        private System.Windows.Forms.Button btnOpen2;
+        private System.Windows.Forms.Button btnShow;
     }
 }
 
