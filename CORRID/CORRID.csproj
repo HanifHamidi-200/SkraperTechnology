@@ -61,6 +61,30 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="fVSub1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fVSub1.Designer.cs">
+      <DependentUpon>fVSub1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fVSub2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fVSub2.Designer.cs">
+      <DependentUpon>fVSub2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fVSub3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fVSub3.Designer.cs">
+      <DependentUpon>fVSub3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fVuex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fVuex.Designer.cs">
+      <DependentUpon>fVuex.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="fInfoys.resx">
@@ -68,6 +92,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fVSub1.resx">
+      <DependentUpon>fVSub1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fVSub2.resx">
+      <DependentUpon>fVSub2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fVSub3.resx">
+      <DependentUpon>fVSub3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fVuex.resx">
+      <DependentUpon>fVuex.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

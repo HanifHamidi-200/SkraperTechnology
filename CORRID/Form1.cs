@@ -69,5 +69,12 @@ namespace CORRID
             fInfoys _dlg = new fInfoys();
             _dlg.ShowDialog();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            fVuex _dlg = new fVuex();
+            _dlg.ShowDialog();
+
+        }
     }
 }
