@@ -17,17 +17,23 @@ namespace CORRID
             pictureBox1.Visible = false;
             pictureBox2.Visible = false;
             pictureBox3.Visible = false;
+            tab1.Visible = false;
+            tab2.Visible = false;
+            tab3.Visible = false;
 
             switch (nMode)
             {
                 case 1:
                     pictureBox1.Visible = true;
+                    tab1.Visible = true;
                     break;
                 case 2:
                     pictureBox2.Visible = true;
+                    tab2.Visible = true;
                     break;
                 default:
                     pictureBox3.Visible = true;
+                    tab3.Visible = true;
                     break;
             }
         }
@@ -39,6 +45,10 @@ namespace CORRID
 
             pictureBox3.Left = pictureBox1.Left;
             pictureBox3.Top = pictureBox1.Top;
+            tab2.Left = tab1.Left;
+            tab2.Top = tab1.Top;
+            tab3.Left = tab1.Left;
+            tab3.Top = tab1.Top;
         }
 
         private void Form1_Load(object sender, EventArgs e)
