@@ -37,6 +37,7 @@
             this.btnOpen1 = new System.Windows.Forms.Button();
             this.btnOpen2 = new System.Windows.Forms.Button();
             this.btnShow = new System.Windows.Forms.Button();
+            this.btnOpen3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lst1
@@ -77,11 +78,11 @@
             // 
             // txt2
             // 
-            this.txt2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt2.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt2.ImeMode = System.Windows.Forms.ImeMode.On;
             this.txt2.Location = new System.Drawing.Point(354, 57);
             this.txt2.Name = "txt2";
-            this.txt2.Size = new System.Drawing.Size(126, 20);
+            this.txt2.Size = new System.Drawing.Size(126, 32);
             this.txt2.TabIndex = 4;
             // 
             // btnOK
@@ -128,11 +129,23 @@
             this.btnShow.UseVisualStyleBackColor = false;
             this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
             // 
+            // btnOpen3
+            // 
+            this.btnOpen3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnOpen3.Location = new System.Drawing.Point(648, 334);
+            this.btnOpen3.Name = "btnOpen3";
+            this.btnOpen3.Size = new System.Drawing.Size(105, 95);
+            this.btnOpen3.TabIndex = 9;
+            this.btnOpen3.Text = "RUSSIAN1000";
+            this.btnOpen3.UseVisualStyleBackColor = false;
+            this.btnOpen3.Click += new System.EventHandler(this.BtnOpen3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(911, 450);
+            this.Controls.Add(this.btnOpen3);
             this.Controls.Add(this.btnShow);
             this.Controls.Add(this.btnOpen2);
             this.Controls.Add(this.btnOpen1);
@@ -161,6 +174,7 @@
         private System.Windows.Forms.Button btnOpen1;
         private System.Windows.Forms.Button btnOpen2;
         private System.Windows.Forms.Button btnShow;
+        private System.Windows.Forms.Button btnOpen3;
     }
 }
 

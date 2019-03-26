@@ -15,7 +15,7 @@ namespace ARBC800
     {
         private void fUpdateList()
         {
-            String sName = "S Arabic800.rtf";
+            String sName = "Data.txt";
             String sLine;
 
             if (lst1.Items.Count > 0)
@@ -62,7 +62,7 @@ namespace ARBC800
                 MessageBox.Show("The file could not be read:", e1.Message);
             }
 
-            sName = "S Japanese250.rtf";
+            sName = "Data2.txt";
             try
             {   // Open the text file using a stream reader.
                 using (StreamReader sr = new StreamReader(sName))
@@ -84,7 +84,7 @@ namespace ARBC800
                 MessageBox.Show("The file could not be read:", e1.Message);
             }
 
-            sName = "S Korean500.rtf";
+            sName = "Data3.txt";
             try
             {   // Open the text file using a stream reader.
                 using (StreamReader sr = new StreamReader(sName))
@@ -106,6 +106,27 @@ namespace ARBC800
                 MessageBox.Show("The file could not be read:", e1.Message);
             }
 
+            sName = "Data4.txt";
+            try
+            {   // Open the text file using a stream reader.
+                using (StreamReader sr = new StreamReader(sName))
+                {
+
+                    // Read the stream to a string, and write the string to the console.
+                    do
+                    {
+                        sLine = sr.ReadLine();
+                        lst4.Items.Add(sLine);
+                    } while (sr.EndOfStream != true);
+                    sr.Close();
+                }
+
+
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show("The file could not be read:", e1.Message);
+            }
 
         }
         public fShow()

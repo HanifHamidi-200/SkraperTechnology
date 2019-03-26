@@ -21,3 +21,4 @@ C:\Users\hanif\Desktop\SkraperTechnology\ARBC800\obj\Debug\ARBC800.csproj.Genera
 C:\Users\hanif\Desktop\SkraperTechnology\ARBC800\obj\Debug\ARBC800.csproj.CoreCompileInputs.cache
 C:\Users\hanif\Desktop\SkraperTechnology\ARBC800\obj\Debug\ARBC800.exe
 C:\Users\hanif\Desktop\SkraperTechnology\ARBC800\obj\Debug\ARBC800.pdb
+C:\Users\hanif\Desktop\SkraperTechnology\ARBC800\obj\Debug\ARBC800.fSub3.resources
